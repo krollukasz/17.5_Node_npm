@@ -1,0 +1,25 @@
+{
+  "name": "17.5_node_npm",
+  "version": "1.0.0",
+  "description": "First project with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krollukasz/17.5_Node_npm.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "learning"
+  ],
+  "author": "Łukasz Król",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krollukasz/17.5_Node_npm/issues"
+  },
+  "homepage": "https://github.com/krollukasz/17.5_Node_npm#readme"
+}
