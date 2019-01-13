@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/krollukasz/17.5_Node_npm/issues"
   },
-  "homepage": "https://github.com/krollukasz/17.5_Node_npm#readme"
+  "homepage": "https://github.com/krollukasz/17.5_Node_npm#readme",
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
 }
