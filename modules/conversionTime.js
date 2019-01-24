@@ -1,4 +1,5 @@
 var os = require("os"); // zaimportowanie modułu "os"
+var colors = require("colors"); // zaimportowanie modułu "colors"
 
 function conversionTime() { // funkcja konwertująca czas
   var uptime = os.uptime(); // zapisane w zmiennej wartości "uptime" pobranej z modułu "os"
