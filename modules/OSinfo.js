@@ -1,6 +1,6 @@
 var os = require("os"); // zaimportowanie modułu "os"
 var colors = require("colors"); // zaimportowanie modułu "colors"
-var conversionTime = require("../modules/conversionTime"); // zaimportowanie modułu conversionTime z folderu "modules"
+var conversionTime = require("./conversionTime"); // zaimportowanie modułu conversionTime z folderu "modules"
 
 function getOSinfo () {
   var type =  os.type();
@@ -16,7 +16,6 @@ function getOSinfo () {
   console.log("Release: ".yellow, release);
   console.log("CPU Model: ".grey, cpu);
   conversionTime.conversionTime();
-  // console.log("Uptime: ".blue, time.print(uptime));
   console.log("User info: ".green, userInfo.username);
   console.log("Home dir: ".red, userInfo.homedir);
 }
