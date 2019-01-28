@@ -12,10 +12,11 @@ function getOSinfo () {
   var release = os.release();
   var cpu = os.cpus()[0].model;
   var userInfo = os.userInfo();
+  var uptime = os.uptime();
   console.log("System: ".green, type);
   console.log("Release: ".yellow, release);
   console.log("CPU Model: ".grey, cpu);
-  conversionTime.conversionTime();
+  console.log("Uptime: " .red, conversionTime.conversionTime(uptime));
   console.log("User info: ".green, userInfo.username);
   console.log("Home dir: ".red, userInfo.homedir);
 }
